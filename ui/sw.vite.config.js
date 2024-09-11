@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   manifest: true,
   build: {
-    outDir: 'dist-sw',
+    outDir: './dist-sw',
     rollupOptions: {
       input: './service-worker.js',
       output: {
